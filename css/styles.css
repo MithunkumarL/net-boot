@@ -452,30 +452,36 @@ body.light-theme{
   grid-template-columns: repeat(3, 1fr);
   gap: .5rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .about__box{
   background-color: var(--container-color);
   border-radius: .75rem;
   padding: .75rem .5rem;
+  text-align: center;
 }
 
 .about__icon{
   font-size: 1.5rem;
   color: var(--first-color);
   margin-bottom: .5rem;
+  text-align: center;
 }
 
 .about__title{
   font-size: var(--small-font-size);
+  text-align: center;
 }
 
 .about__subtitle{
   font-size: var(--tiny-font-size);
+  text-align: center;
 }
 
 .about__description{
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 /*=============== SKILLS ===============*/
