@@ -466,82 +466,89 @@
                 </div>
             </section>
 
-            <!--=============== WORK ===============-->
-            <section class="work section" id="work">
-                <span class="section__subtitle">My Portfolio</span>
-                <h2 class="section__title">Recent Works</h2>
+<!--=============== WORK ===============-->
+<section class="work section" id="work">
+    <span class="section__subtitle">My Portfolio</span>
+    <h2 class="section__title">Recent Works</h2>
 
-                <div class="work__filters">
-                    <span class="work__item active-work" data-filter='all'>All</span>
-                    <span class="work__item" data-filter='.product_design'>New Product Developer & Design</span>
-                    <span class="work__item" data-filter='.embedded_projects'>Cost analysis</span>
-                    <span class="work__item" data-filter='.illustrations'>Program Management</span>
+    <div class="work__filters">
+        <span class="work__item active-work" data-filter='all'>All</span>
+        <span class="work__item" data-filter='.product_design'>New Product Developer & Design</span>
+        <span class="work__item" data-filter='.embedded_projects'>Cost analysis</span>
+        <span class="work__item" data-filter='.illustrations'>Program Management</span>
+    </div>
+
+    <div class="work__container container grid">
+        <!-- Sample Card -->
+        <div class="work__card mix embedded_projects">
+            <img src="img/working-image.jpg" alt="" class="work__img">
+            <h3 class="work__title">Loading...</h3>
+            <span class="work__button">
+                Preview <i class='bx bxs-chevrons-right work__icon'></i>
+            </span>
+        </div>
+
+        <!-- Hand Gesture Scroll Control Project -->
+        <div class="work__card mix embedded_projects">
+            <img src="img/hand-gesture-zoom.png" alt="" class="work__img">
+            <h3 class="work__title">Hand Gesture Scroll Control</h3>
+
+            <span class="services__button">
+                Preview <i class='bx bxs-chevrons-right services__icon'></i>
+            </span>
+
+            <!-- Modal -->
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <i class='bx bxs-chevrons-left services__modal-close'></i>
+
+                    <h3 class="services__modal-title">Hand Gesture Scroll Control</h3>
+
+                    <ul class="services__modal-list">
+                        <li class="services__modal-item">
+                            <i class='bx bx-chevron-right services__modal-icon'></i>
+                            <p class="services__modal-info">
+                                Uses MediaPipe to track hand landmarks in real-time.
+                            </p>
+                        </li>
+                        <li class="services__modal-item">
+                            <i class='bx bx-chevron-right services__modal-icon'></i>
+                            <p class="services__modal-info">
+                                Recognizes hand gestures for scrolling using OpenCV.
+                            </p>
+                        </li>
+                        <li class="services__modal-item">
+                            <i class='bx bx-chevron-right services__modal-icon'></i>
+                            <p class="services__modal-info">
+                                Maps gestures to system commands with PyAutoGUI for seamless control.
+                            </p>
+                        </li>
+                        <li class="services__modal-item">
+                            <i class='bx bx-chevron-right services__modal-icon'></i>
+                            <p class="services__modal-info">
+                                Enables hands-free navigation of CAD models and documents.
+                            </p>
+                        </li>
+                        <li class="services__modal-item">
+                            <i class='bx bx-chevron-right services__modal-icon'></i>
+                            <p class="services__modal-info">
+                                Reduces input device switching, streamlining workflow and boosting efficiency.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <!-- YouTube Video Embed -->
+                    <div class="video-container" style="margin-top: 1.5rem;">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/JUXjQ-1CJSE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
                 </div>
-
-                <div class="work__container container grid">
-                    <div class="work__card mix embedded_projects">
-                        <img src="Img/working image.jpg" alt="" class="work__img">
-
-                        <h3 class="work__title">Loading...</h3>
-
-                        <span class="work__button">
-                            Preview <i class='bx bxs-chevrons-right work__icon'></i>
-                        </span>
-                    </div>
-
-                    <div class="work__card mix embedded_projects">
-                        <img src="Img/Hand gesture zoom.png"  alt="" class="work__img">
-                        <h3 class="services__title">Hand Gesture Scroll Control</h3>
-
-                        <span class="services__button">
-                            Preview<i class='bx bxs-chevrons-right services__icon'></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <i class='bx bxs-chevrons-left services__modal-close'></i>
-
-                                <h3 class="services__modal-title">Hand Gesture Scroll Control</h3>
-                                
-                                <ul class="services__modal-list">
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-chevron-right services__modal-icon'></i>
-                                        <p class="services__modal-info">
-                                            Uses MediaPipe to track hand landmarks in real-time.
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-chevron-right services__modal-icon'></i>
-                                        <p class="services__modal-info">
-                                            Recognizes hand gestures for scrolling using OpenCV.
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-chevron-right services__modal-icon'></i>
-                                        <p class="services__modal-info">
-                                            Maps gestures to system commands with PyAutoGUI for seamless control.
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-chevron-right services__modal-icon'></i>
-                                        <p class="services__modal-info">
-                                            Enables hands-free navigation of CAD models and documents.
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-chevron-right services__modal-icon'></i>
-                                        <p class="services__modal-info">
-                                            Reduces input device switching, streamlining workflow and boosting efficiency.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+        </div>
+    </div>
 
                     <div class="work__card mix product_design">
                         <img src="Img/KINCISE-Hero.jpeg"  alt="" class="work__img">
